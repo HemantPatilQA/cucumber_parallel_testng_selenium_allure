@@ -1,0 +1,12 @@
+<suite name="Parallel Cucumber Suite" parallel="tests" thread-count="2">
+    <test name="Login Feature Test">
+        <classes>
+            <class name="com.example.runner.LoginTestRunner"/>
+        </classes>
+    </test>
+    <test name="Dashboard Feature Test">
+        <classes>
+            <class name="com.example.runner.DashboardTestRunner"/>
+        </classes>
+    </test>
+</suite>
